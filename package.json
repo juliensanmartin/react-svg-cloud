@@ -1,0 +1,46 @@
+{
+  "name": "react-svg-cloud",
+  "version": "1.0.0",
+  "description": "React component for rendering a SVG realistic cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliensanmartin/react-svg-cloud.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "cloud"
+  ],
+  "author": "julien sanmartin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliensanmartin/react-svg-cloud/issues"
+  },
+  "homepage": "https://github.com/juliensanmartin/react-svg-cloud#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
